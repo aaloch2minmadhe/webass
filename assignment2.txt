@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Practical - HTML Elements</title>
+</head>
+<body>
+    <h2>Student Information System</h2>
+    <img src="https://via.placeholder.com/150" alt="Student Photo" width="150" height="150">
+    <br><br>
+    <a href="https://www.sinhgad.edu/" target="_blank">Visit Official College Website</a>
+    <br><br>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Category</th>
+            <th>Information Details</th>
+        </tr>
+        <tr>
+            <td>Academics</td>
+            <td>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <td>Student Name</td>
+                        <td>Pablo Escobar</td>
+                    </tr>
+                    <tr>
+                        <td>Branch</td>
+                        <td>Computer Science Engineering</td>
+                    </tr>
+                    <tr>
+                        <td>Institute</td>
+                        <td>Smt. Kashibai Navale College of Engineering</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>Lab Partner</td>
+            <td>Danny Pandit</td>
+        </tr>
+    </table>
+</body>
+</html>

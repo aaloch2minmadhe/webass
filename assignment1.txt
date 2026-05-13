@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head> <title> PERSONAL DETAILS </title> </head>
+<body>
+<h1> Personal Details </h1>
+<p>
+<b>Name:</b> Pablo Escobar <br>
+<b>Course:</b> Computer Science Engineering <br>
+<b>College:</b> Smt Kashibai Navale College Of Engineering <br>
+</p>
+<h2> HOBBIES and INTEREST </h2>
+<p>
+	1. Track and field athletics (100m and 400m sprints) <br>
+        2. Full-stack development (Java, Spring Boot, MongoDB) <br>
+        3. Listening to Bollywood, K-pop, and Pop music <br>
+        4. Following professional cricket
+</p>
+</body>
+</html>

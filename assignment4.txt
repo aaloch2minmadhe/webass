@@ -1,0 +1,33 @@
+<html>
+<head>
+    <title>Student Details</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        table { border-collapse: collapse; width: 50%; }
+        th, td { border: 1px solid black; padding: 5px; }
+    </style>
+</head>
+<body>
+
+    <h2 style="color: blue;">Division 2 Details</h2>
+
+    <table>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>Cxxxxx</td>
+            <td>Pablo Escobar</td>
+        </tr>
+        <tr>
+            <td>Partner</td>
+            <td>Bob Marley</td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+

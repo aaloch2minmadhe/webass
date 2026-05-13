@@ -1,0 +1,35 @@
+<html>
+<body>
+    <h2 id="msg">Original Text</h2>
+    <div id="box"></div>
+    <button onclick="change()">Change Content</button>
+    <button onclick="add()">Add Element</button>
+    <script>
+        function change() {
+            document.getElementById("msg").innerHTML = "Text Changed!";
+        }  
+        function add() {
+            var newEl = document.createElement("p");
+            newEl.innerHTML = "New Element Added!";
+            document.getElementById("box").appendChild(newEl);
+        }
+    </script>
+</body>
+</html><html>
+<body>
+    <h2 id="msg">Original Text</h2>
+    <div id="box"></div>    
+    <button onclick="change()">Change Content</button>
+    <button onclick="add()">Add Element</button>
+    <script>
+        function change() {
+            document.getElementById("msg").innerHTML = "Text Changed!";
+        }
+        function add() {
+            var newEl = document.createElement("p");
+            newEl.innerHTML = "New Element Added!";
+            document.getElementById("box").appendChild(newEl);
+        }
+    </script>
+</body>
+</html>

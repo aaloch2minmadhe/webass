@@ -1,0 +1,17 @@
+<html>
+<body>
+    <form method="POST">
+        Name: <input type="text" name="n"><br><br>
+        City: <input type="text" name="c"><br><br>
+        <input type="submit">
+    </form>
+
+    <?php
+    if (isset($_POST['n'])) {
+        echo "<h3>Submitted Data:</h3>";
+        echo "Name: " . $_POST['n'] . "<br>";
+        echo "City: " . $_POST['c'];
+    }
+    ?>
+</body>
+</html>

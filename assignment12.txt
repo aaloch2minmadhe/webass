@@ -1,0 +1,22 @@
+<html>
+<body>
+    <form method="POST">
+        Enter items (comma-separated): <input type="text" name="data"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <?php
+    if (isset($_POST['data'])) {
+        // Convert the comma-separated string into a PHP array
+        $myArray = explode(",", $_POST['data']);
+        
+        echo "<h3>Array Elements:</h3>";
+        
+        // Loop through the array and display each item
+        foreach ($myArray as $item) {
+            echo trim($item) . "<br>";
+        }
+    }
+    ?>
+</body>
+</html>

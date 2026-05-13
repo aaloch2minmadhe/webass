@@ -1,0 +1,31 @@
+<html>
+<body>
+    <input type="number" id="a">
+    <select id="op">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+    </select>
+    <input type="number" id="b">
+    <button onclick="calc()">=</button>
+    <b id="ans"></b>
+
+    <script>
+        function calc() {
+            let a = Number(document.getElementById("a").value);
+            let b = Number(document.getElementById("b").value);
+            let op = document.getElementById("op").value;
+            let res;
+            
+            switch(op) {
+                case '+': res = a + b; break;
+                case '-': res = a - b; break;
+                case '*': res = a * b; break;
+                case '/': res = a / b; break;
+            }
+            document.getElementById("ans").innerHTML = res;
+        }
+    </script>
+</body>
+</html>

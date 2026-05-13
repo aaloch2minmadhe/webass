@@ -1,0 +1,22 @@
+<html>
+<body>
+    <h2>String Operations</h2>
+
+    <?php
+    $text = "Computer Engineering";
+
+    // 1. Display original string
+    echo "Original String: <b>" . $text . "</b><br><br>";
+
+    // 2. Length of the string
+    echo "Length: " . strlen($text) . "<br>";
+
+    // 3. Reverse the string
+    echo "Reversed: " . strrev($text) . "<br>";
+
+    // 4. Substring (Extracts from position 0, taking 8 characters)
+    echo "Substring: " . substr($text, 0, 8);
+    ?>
+
+</body>
+</html>
