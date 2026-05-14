@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Table</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #343a40;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="color: navy; text-align: center;">Student Details</h1>
+
+  <table>
+    <tr>
+      <th>Student Name</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>John Doe</td>
+      <td>A</td>
+    </tr>
+    <tr>
+      <td>Jane Smith</td>
+      <td style="color: red; font-weight: bold;">C</td>
+    </tr>
+  </table>
+
+</body>
+</html>
